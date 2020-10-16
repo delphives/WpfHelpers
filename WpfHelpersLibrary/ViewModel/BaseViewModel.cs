@@ -5,7 +5,6 @@ namespace ViewModel
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void FirePropertyChanged([CallerMemberName] string propertyName = null)
